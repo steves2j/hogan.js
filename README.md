@@ -20,6 +20,16 @@ var output = template.render(data);
 // prints "Follow @dhg."
 console.log(output);
 ```
+## Enhancements
+
+The following enhancements have been made to this Hogan fork.
+
+```js
+{{+my_var}} will upper the value of my_var
+{{-my_var}} will lower the value of my_var
+{{|1,4|my_var}} will get all characters between pos 1 and 4 of my_var (inclusive)
+{{|1|my_var}} will gett all characters from pos 1 of my_var (inclusive)
+```
 
 ## Features
 
